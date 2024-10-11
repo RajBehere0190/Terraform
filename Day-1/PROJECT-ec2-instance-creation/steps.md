@@ -23,6 +23,13 @@ terraform init
 
 This command initializes the Terraform working directory, downloading any necessary provider plugins.
 
+## Plan Execution
+The command in Terraform is used to create an execution plan for your infrastructure. It helps you understand what changes Terraform will make to your infrastructure when you apply the changes described in your configuration files.
+
+```
+terraform plan
+```
+
 ## Apply the Configuration
 
 Run the following command to create the AWS resources defined in your Terraform configuration:
